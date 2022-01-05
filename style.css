@@ -1,0 +1,45 @@
+
+
+.parent{
+    display: flex;
+    width: 100%;
+    padding: 2%;
+    margin: 2%;
+    align-items: center;
+     text-align:left;
+      background-color: blanchedalmond;
+      
+}
+
+.parent>.card{
+  
+    width: auto;
+    padding:1% ;
+    margin:1%;
+    border:2px solid black;
+    background-color: cornflowerblue;
+   
+}
+button{
+    color: darkgreen;
+    width: 50%;
+background-color: darkgrey;
+}
+img{
+    width: 100%;
+    height: 50%;
+    image-orientation: 200rad;
+}
+@media only screen and(min-width:320px) and (max-width:480px)
+{
+    .parent{
+        display:flex;
+        flex-direction: column;
+    }
+    
+    .parent>.card{
+        width:100%;
+    }
+}
+
+   
